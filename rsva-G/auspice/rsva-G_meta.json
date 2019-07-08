@@ -1,0 +1,399 @@
+{
+  "annotations": {
+    "DZD21_gp03": {
+      "end": 5584,
+      "start": 4687,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 922,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "Genotype": {
+      "color_map": [
+        [
+          "GA2",
+          "#86BB6E"
+        ],
+        [
+          "GA5",
+          "#4379CD"
+        ],
+        [
+          "GA7",
+          "#D3B240"
+        ],
+        [
+          "NA1",
+          "#511EA8"
+        ],
+        [
+          "NA2",
+          "#E67431"
+        ],
+        [
+          "ON1",
+          "#DC2F24"
+        ]
+      ],
+      "key": "Genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "Genotype",
+      "type": "discrete"
+    },
+    "country": {
+      "color_map": [
+        [
+          "Hong_Kong",
+          "#511EA8"
+        ],
+        [
+          "Kenya",
+          "#4928B4"
+        ],
+        [
+          "South_Africa",
+          "#4334BF"
+        ],
+        [
+          "South_Korea",
+          "#4041C7"
+        ],
+        [
+          "Argentina",
+          "#3F50CC"
+        ],
+        [
+          "Brazil",
+          "#3F5ED0"
+        ],
+        [
+          "Canada",
+          "#416CCE"
+        ],
+        [
+          "Cuba",
+          "#4379CD"
+        ],
+        [
+          "Mexico",
+          "#4784C7"
+        ],
+        [
+          "Paraguay",
+          "#4B8FC1"
+        ],
+        [
+          "Peru",
+          "#5098B9"
+        ],
+        [
+          "USA",
+          "#56A0AF"
+        ],
+        [
+          "Iran",
+          "#5CA7A4"
+        ],
+        [
+          "Jordan",
+          "#63AC99"
+        ],
+        [
+          "Lebanon",
+          "#6BB18E"
+        ],
+        [
+          "Saudi_Arabia",
+          "#73B583"
+        ],
+        [
+          "Belgium",
+          "#7CB878"
+        ],
+        [
+          "Germany",
+          "#86BB6E"
+        ],
+        [
+          "Italy",
+          "#A4BE56"
+        ],
+        [
+          "Latvia",
+          "#AFBD4F"
+        ],
+        [
+          "Netherlands",
+          "#B9BC4A"
+        ],
+        [
+          "Russia",
+          "#C2BA46"
+        ],
+        [
+          "Spain",
+          "#CCB742"
+        ],
+        [
+          "India",
+          "#D3B240"
+        ],
+        [
+          "Thailand",
+          "#DAAC3D"
+        ],
+        [
+          "Australia",
+          "#DFA43B"
+        ],
+        [
+          "China",
+          "#E39B39"
+        ],
+        [
+          "Japan",
+          "#E68F36"
+        ],
+        [
+          "New_Zealand",
+          "#E68234"
+        ],
+        [
+          "Philippines",
+          "#E67431"
+        ],
+        [
+          "Taiwan",
+          "#E4632E"
+        ],
+        [
+          "Viet_Nam",
+          "#E1512A"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "Africa",
+          "#86BB6E"
+        ],
+        [
+          "Europe",
+          "#DC2F24"
+        ],
+        [
+          "Americas",
+          "#4379CD"
+        ],
+        [
+          "Eastern_Mediterranean",
+          "#D3B240"
+        ],
+        [
+          "South-East_Asia",
+          "#511EA8"
+        ],
+        [
+          "Western_Pacific",
+          "#E67431"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "Genotype"
+  ],
+  "geo": {
+    "country": {
+      "Argentina": {
+        "latitude": -32.269251,
+        "longitude": -63.776775
+      },
+      "Australia": {
+        "latitude": -22.870701,
+        "longitude": 134.932495
+      },
+      "Belgium": {
+        "latitude": 50.495698,
+        "longitude": 4.465881
+      },
+      "Brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "Canada": {
+        "latitude": 60.219905,
+        "longitude": -107.365738
+      },
+      "China": {
+        "latitude": 35.000074,
+        "longitude": 104.999927
+      },
+      "Cuba": {
+        "latitude": 21.796398,
+        "longitude": -78.752018
+      },
+      "Germany": {
+        "latitude": 51.0834196,
+        "longitude": 10.4234469
+      },
+      "Hong_Kong": {
+        "latitude": 22.489777,
+        "longitude": 114.144173
+      },
+      "India": {
+        "latitude": 25.438228,
+        "longitude": 79.361169
+      },
+      "Iran": {
+        "latitude": 30.325311,
+        "longitude": 55.713818
+      },
+      "Italy": {
+        "latitude": 42.6384261,
+        "longitude": 12.674297
+      },
+      "Japan": {
+        "latitude": 37.00314,
+        "longitude": 139.455553
+      },
+      "Jordan": {
+        "latitude": 31.1667049,
+        "longitude": 36.941628
+      },
+      "Kenya": {
+        "latitude": -1.427441,
+        "longitude": 39.48803
+      },
+      "Latvia": {
+        "latitude": 56.956072,
+        "longitude": 25.246725
+      },
+      "Lebanon": {
+        "latitude": 33.908769,
+        "longitude": 35.649563
+      },
+      "Mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "Netherlands": {
+        "latitude": 52.422599,
+        "longitude": 5.454937
+      },
+      "New_Zealand": {
+        "latitude": -44.781669,
+        "longitude": 169.936871
+      },
+      "Paraguay": {
+        "latitude": -21.305539,
+        "longitude": -60.208512
+      },
+      "Peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "Philippines": {
+        "latitude": 13.805944,
+        "longitude": 123.401618
+      },
+      "Russia": {
+        "latitude": 63.943016,
+        "longitude": 99.683919
+      },
+      "Saudi_Arabia": {
+        "latitude": 22.641412,
+        "longitude": 45.328917
+      },
+      "South_Africa": {
+        "latitude": -27.829241,
+        "longitude": 23.886488
+      },
+      "South_Korea": {
+        "latitude": 34.938191,
+        "longitude": 127.344504
+      },
+      "Spain": {
+        "latitude": 39.717367,
+        "longitude": -1.959831
+      },
+      "Taiwan": {
+        "latitude": 24.433552,
+        "longitude": 121.093102
+      },
+      "Thailand": {
+        "latitude": 14.706979,
+        "longitude": 100.07256
+      },
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "Viet_Nam": {
+        "latitude": 16.16667,
+        "longitude": 107.83333
+      }
+    },
+    "region": {
+      "Africa": {
+        "latitude": 1.095985,
+        "longitude": 23.681671
+      },
+      "Americas": {
+        "latitude": 50.276157,
+        "longitude": -105.901336
+      },
+      "Eastern_Mediterranean": {
+        "latitude": 33.992772,
+        "longitude": 19.196538
+      },
+      "Europe": {
+        "latitude": 53.748329,
+        "longitude": 5.077611
+      },
+      "South-East_Asia": {
+        "latitude": 6.871613,
+        "longitude": 105.292133
+      },
+      "Western_Pacific": {
+        "latitude": 28.339659,
+        "longitude": 120.104638
+      }
+    }
+  },
+  "maintainer": [
+    "Trevor Bedford",
+    "http://bedford.io/team/trevor-bedford/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtypes A evolution using G-gene sequences",
+  "updated": "20 Jun 2019",
+  "virus_count": 2296
+}

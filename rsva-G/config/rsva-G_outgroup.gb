@@ -1,0 +1,86 @@
+LOCUS       NC_038235             922 bp    cRNA    linear   VRL 08-NOV-2018
+DEFINITION  Human orthopneumovirus Subgroup A, complete cds.
+ACCESSION   NC_038235
+VERSION     NC_038235.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Human orthopneumovirus (HRSV)
+  ORGANISM  Human orthopneumovirus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Pneumoviridae; Orthopneumovirus.
+REFERENCE   1  (bases 1 to 922)
+  AUTHORS   Mink,M.A., Stec,D.S. and Collins,P.L.
+  TITLE     Nucleotide sequences of the 3' leader and 5' trailer regions of
+            human respiratory syncytial virus genomic RNA
+  JOURNAL   Virology 185 (2), 615-624 (1991)
+   PUBMED   1840712
+REFERENCE   2  (bases 1 to 922)
+  AUTHORS   Stec,D.S., Hill,M.G. III and Collins,P.L.
+  TITLE     Sequence analysis of the polymerase L gene of human respiratory
+            syncytial virus and predicted phylogeny of nonsegmented
+            negative-strand viruses
+  JOURNAL   Virology 183 (1), 273-287 (1991)
+   PUBMED   2053282
+REFERENCE   3  (bases 1 to 922)
+  AUTHORS   Collins,P.L., Olmsted,R.A., Spriggs,M.K., Johnson,P.R. and
+            Buckler-White,A.J.
+  TITLE     Gene overlap and site-specific attenuation of transcription of the
+            viral polymerase L gene of human respiratory syncytial virus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 84 (15), 5134-5138 (1987)
+   PUBMED   2440043
+REFERENCE   4  (bases 1 to 922)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to M74568.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..922
+                     /organism="Human orthopneumovirus"
+                     /mol_type="viral cRNA"
+                     /db_xref="taxon:11250"
+     gene            4673..5595
+                     /gene="G"
+                     /locus_tag="DZD21_gp03"
+                     /db_xref="GeneID:37607642"
+     mRNA            4673..5595
+                     /gene="G"
+                     /locus_tag="DZD21_gp03"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+                     /db_xref="GeneID:37607642"
+     CDS             4688..5584
+                     /gene="G"
+                     /locus_tag="DZD21_gp03"
+                     /codon_start=1
+                     /product="attachment glycoprotein"
+                     /protein_id="YP_009518856.1"
+                     /db_xref="GeneID:37607642"
+                     /translation="MSKNKDQRTAKTLERTWDTLNHLLFISSCLYKLNLKSVAQITLS
+                     ILAMIISTSLIIAAIIFIASANHKVTPTTAIIQDATSQIKNTTPTYLTQNPQLGISPS
+                     NPSEITSQITTILASTTPGVKSTLQSTTVKTKNTTTTQTQPSKPTTKQRQNKPPSKPN
+                     NDFHFEVFNFVPCSICSNNPTCWAICKRIPNKKPGKKTTTKPTKKPTLKTTKKDPKPQ
+                     TTKSKEVPTTKPTEEPTINTTKTNIITTLLTSNTTGNPELTSQMETFHSTSSEGNPSP
+                     SQVSTTSEYPSQPSSPPNTPRQ"
+ORIGIN      
+     4681 tgcaaacatg tccaaaaaca aggaccaacg caccgctaag acattagaaa ggacctggga
+     4741 cactctcaat catttattat tcatatcatc gtgcttatat aagttaaatc ttaaatctgt
+     4801 agcacaaatc acattatcca ttctggcaat gataatctca acttcactta taattgcagc
+     4861 catcatattc atagcctcgg caaaccacaa agtcacacca acaactgcaa tcatacaaga
+     4921 tgcaacaagc cagatcaaga acacaacccc aacatacctc acccagaatc ctcagcttgg
+     4981 aatcagtccc tctaatccgt ctgaaattac atcacaaatc accaccatac tagcttcaac
+     5041 aacaccagga gtcaagtcaa ccctgcaatc cacaacagtc aagaccaaaa acacaacaac
+     5101 aactcaaaca caacccagca agcccaccac aaaacaacgc caaaacaaac caccaagcaa
+     5161 acccaataat gattttcact ttgaagtgtt caactttgta ccctgcagca tatgcagcaa
+     5221 caatccaacc tgctgggcta tctgcaaaag aataccaaac aaaaaaccag gaaagaaaac
+     5281 cactaccaag cccacaaaaa aaccaaccct caagacaacc aaaaaagatc ccaaacctca
+     5341 aaccactaaa tcaaaggaag tacccaccac caagcccaca gaagagccaa ccatcaacac
+     5401 caccaaaaca aacatcataa ctacactact cacctccaac accacaggaa atccagaact
+     5461 cacaagtcaa atggaaacct tccactcaac ttcctccgaa ggcaatccaa gcccttctca
+     5521 agtctctaca acatccgagt acccatcaca accttcatct ccacccaaca caccacgcca
+     5581 gtag
+//
+

@@ -1,0 +1,105 @@
+LOCUS       NC_038235              1902 bp    cRNA    linear   VRL 08-NOV-2018
+DEFINITION  Human orthopneumovirus Subgroup A, complete cds.
+ACCESSION   NC_038235
+VERSION     NC_038235.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Human orthopneumovirus (HRSV)
+  ORGANISM  Human orthopneumovirus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Pneumoviridae; Orthopneumovirus.
+REFERENCE   1  (bases 1 to 15222)
+  AUTHORS   Mink,M.A., Stec,D.S. and Collins,P.L.
+  TITLE     Nucleotide sequences of the 3' leader and 5' trailer regions of
+            human respiratory syncytial virus genomic RNA
+  JOURNAL   Virology 185 (2), 615-624 (1991)
+   PUBMED   1840712
+REFERENCE   2  (bases 1 to 15222)
+  AUTHORS   Stec,D.S., Hill,M.G. III and Collins,P.L.
+  TITLE     Sequence analysis of the polymerase L gene of human respiratory
+            syncytial virus and predicted phylogeny of nonsegmented
+            negative-strand viruses
+  JOURNAL   Virology 183 (1), 273-287 (1991)
+   PUBMED   2053282
+REFERENCE   3  (bases 1 to 15222)
+  AUTHORS   Collins,P.L., Olmsted,R.A., Spriggs,M.K., Johnson,P.R. and
+            Buckler-White,A.J.
+  TITLE     Gene overlap and site-specific attenuation of transcription of the
+            viral polymerase L gene of human respiratory syncytial virus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 84 (15), 5134-5138 (1987)
+   PUBMED   2440043
+REFERENCE   4  (bases 1 to 15222)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to M74568.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1902
+                     /organism="Human orthopneumovirus"
+                     /mol_type="viral cRNA"
+                     /db_xref="taxon:11250"
+     gene            5648..7550
+                     /gene="F"
+                     /locus_tag="DZD21_gp02"
+                     /db_xref="GeneID:37607643"
+     mRNA            5648..7550
+                     /gene="F"
+                     /locus_tag="DZD21_gp02"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /citation=[3]
+                     /db_xref="GeneID:37607643"
+     CDS             5661..7385
+                     /gene="F"
+                     /locus_tag="DZD21_gp02"
+                     /codon_start=1
+                     /product="fusion glycoprotein"
+                     /protein_id="YP_009518857.1"
+                     /db_xref="GeneID:37607643"
+                     /translation="MELLILKANAITTILTAVTFCFASGQNITEEFYQSTCSAVSKGY
+                     LSALRTGWYTSVITIELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQLLMQSTPP
+                     TNNRARRELPRFMNYTLNNAKKTNVTLSKKRKRRFLVFLLGVGSAIASGVAVSKVLHL
+                     EGEVNKIKSALLSTNKALVSLSNGVSVLTSKVLDLKNYIDKQLLPIVNKQSCSISNIE
+                     TVIEFQQKNNRLLEITREFSVNAGVTTPVSTYMLTNSELLSLINDMPITNDQKKLMSN
+                     NVQIVRQQSYSIMSIIKEEVLAYVVQLPLYGVIDTPCWKLHTSPLCTTNTKEGSNICL
+                     TRTDRGWYCDNAGSVSFFPQAETCKVQSNRVFCDTMNSLTLPSEINLCNVDIFNPKYD
+                     CKIMTSKTDVSSSVITSLGAIVSCYGKTKCTASNKNRGIIKTFSNGCDYVSNKGMDTV
+                     SVGNTLYYVNKQEGKSLYVKGEPIINFYDPLVFPSDEFDASISQVNEKINQSLAFIRK
+                     SDELLHNVNAGKSTTNIMITTIIIVIIVILLSLIAVGLLLYCKARSTPVTLSKDQLSG
+                     INNIAFSN"
+ORIGIN      
+     5641                       atggagttgc taatcctcaa agcaaatgca attaccacaa
+     5701 tcctcactgc agtcacattt tgttttgctt ctggtcaaaa catcactgaa gaattttatc
+     5761 aatcaacatg cagtgcagtt agcaaaggct atcttagtgc tctgagaact ggttggtata
+     5821 ccagtgttat aactatagaa ttaagtaata tcaaggaaaa taagtgtaat ggaacagatg
+     5881 ctaaggtaaa attgataaaa caagaattag ataaatataa aaatgctgta acagaattgc
+     5941 agttgctcat gcaaagcaca ccaccaacaa acaatcgagc cagaagagaa ctaccaaggt
+     6001 ttatgaatta tacactcaac aatgccaaaa aaaccaatgt aacattaagc aagaaaagga
+     6061 aaagaagatt tcttgttttt ttgttaggtg ttggatctgc aatcgccagt ggcgttgctg
+     6121 tatctaaggt cctgcaccta gaaggggaag tgaacaagat caaaagtgct ctactatcca
+     6181 caaacaaggc tctagtcagc ttatcaaatg gagttagtgt cttaaccagc aaagtgttag
+     6241 acctcaaaaa ctatatagat aaacaattgt tacctattgt gaacaagcaa agctgcagca
+     6301 tatcaaatat agaaactgtg atagagttcc aacaaaagaa caacagacta ctagagatta
+     6361 ccagggaatt tagtgttaat gcaggtgtaa ctacacctgt aagcacttac atgttaacta
+     6421 atagtgaatt attgtcatta atcaatgata tgcctataac aaatgatcag aaaaagttaa
+     6481 tgtccaacaa tgttcaaata gttagacagc aaagttactc tatcatgtcc ataataaaag
+     6541 aggaagtctt agcatatgta gtacaattac cactatatgg tgttatagat acaccctgtt
+     6601 ggaaactaca cacatcccct ctatgtacaa ccaacacaaa agaagggtcc aacatctgtt
+     6661 taacaagaac tgacagagga tggtactgtg acaatgcagg atcagtatct ttcttcccac
+     6721 aagctgaaac atgtaaagtt caatcaaatc gagtattttg tgacacaatg aacagtttaa
+     6781 cattaccaag tgaaataaat ctctgcaatg ttgacatatt caaccccaaa tatgattgta
+     6841 aaattatgac ttcaaaaaca gatgtaagca gctccgttat cacatctcta ggagccattg
+     6901 tgtcatgcta tggcaaaact aaatgtacag catccaataa aaatcgtgga atcataaaga
+     6961 cattttctaa cgggtgcgat tatgtatcaa ataaagggat ggacactgtg tctgtaggta
+     7021 acacattata ttatgtaaat aagcaagaag gtaaaagtct ctatgtaaaa ggtgaaccaa
+     7081 taataaattt ctatgaccca ttagtattcc cctctgatga atttgatgca tcaatatctc
+     7141 aagtcaacga gaagattaac cagagcctag catttattcg taaatccgat gaattattac
+     7201 ataatgtaaa tgctggtaaa tccaccacaa atatcatgat aactactata attatagtga
+     7261 ttatagtaat attgttatca ttaattgctg ttggactgct cttatactgt aaggccagaa
+     7321 gcacaccagt cacactaagc aaagatcaac tgagtggtat aaataatatt gcatttagta
+     7381 actaa
+//
+
