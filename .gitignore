@@ -1,0 +1,3 @@
+##ignore from auspice build
+.*/data/
+.*/result/
