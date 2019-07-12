@@ -1,3 +1,8 @@
 ##ignore from auspice build
 .*/data/
 .*/result/
+# ignore the auspice files from subfolders
+# as these can't be accessed via the community
+# functionality
+.*/auspice/
+
