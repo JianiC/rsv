@@ -1,14 +1,14 @@
-# rsv
+# RSV
 This is the nextstrain build for Human Respiratory syncytial virus.
 
-## Aim
-Previous RSV sequencing studies have largely focused on partial sequencing of the G gene (200-300 nucleotides) for genotype characterization or diagnostics. Here, we build phylogeny of rsv using G gene, F gene and whole genmome sequences. Here, we examine whether current genotype assignment could recapitulate the phylogenetic signal of other genes with the genotype information extracted from genbank. We aim to examine the genetic diversity and phylogenetic signature of RSV and review the evolutionary systematics of RSV on a global scale.
-
+The human respiratory syncytial virus (RSV) is one of the major causes of respiratory infections, especially in infants and young children.The genome is approximately 15,000 nucleotides in length and is composed of a single strand of RNA with negative polarity. It has 10 genes encoding 11 proteins. Among them, the F and G lipoproteins are the only two that target the cell membrane, and are highly conserved among RSV isolates.
+## Aims
+Previous RSV sequencing studies have largely focused on partial sequencing of the G gene (200-300 nucleotides) for genotype characterization or diagnostics. Here, we build phylogeny of rsv using G gene, F gene and whole genmome sequences to examine whether current genotype assignment could recapitulate the phylogenetic signal of other genes. We aim to study the genetic diversity and phylogenetic signature of RSV and review the evolutionary systematics of RSV on a global scale.
 ## Data
-RSV Whole-genome sequences as well as different single-genome sequences (G gene, F gene) were retrieved from Genbank.
+RSV whole-genome sequences as well as different single-genome sequences (G gene, F gene) were retrieved from Genbank.
 
-Metadata including (genotype,isolated country and date) were extracted using a little C program gbmunge https://github.com/sdwfrost/gbmunge. Isolated countries information were further coded into 6 WHO region for the analysis purpose.
-
+Metadata (including isolated country and date) were extracted from genbank using a little C program gbmunge https://github.com/sdwfrost/gbmunge. Isolated countries information were further coded into 6 WHO region for the analysis purpose. Sequences genotype information were also collected from genbank pages.
 ## Nextstrain build
+Hadfield et al., Nextstrain: real-time tracking of pathogen evolution, Bioinformatics (2018)
 
-For Full instructions on how to set up nextstrain visit:
+For Full instructions on how to set up nextstrain visit: https://nextstrain.org/
