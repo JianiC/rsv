@@ -1,0 +1,37 @@
+{
+  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtypes A evolution using F-gene sequences",
+  "color_options": {   
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "Genotype": {
+      "key":"Genotype",
+      "legendTitle":"Genotype",
+      "menuItem":"Genotype",
+      "type":"discrete"
+    },
+    "country": {
+    },
+    "region": {
+    }
+  },
+  "geo": [
+    "country",
+    "region"
+  ],
+  "defaults": {
+    "mapTriplicate": true
+  },  
+  "maintainer": [
+    "Trevor Bedford",
+    "http://bedford.io/team/trevor-bedford/"
+  ],
+  "filters": [
+    "country",
+    "region",
+    "Genotype"
+  ]
+}
