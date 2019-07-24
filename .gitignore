@@ -3,4 +3,4 @@
 **/results/
 
 #ignore auspice from second directory
-**/auspice/
+*/auspice/
