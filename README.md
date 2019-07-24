@@ -9,6 +9,7 @@ RSV whole-genome sequences as well as different single-genome sequences (G gene,
 
 Metadata (including isolated country and date) were extracted from genbank using a little C program gbmunge https://github.com/sdwfrost/gbmunge. Isolated countries information were further coded into 6 WHO region for the analysis purpose. Sequences genotype information were also collected from genbank pages.
 ## Nextstrain build
-Hadfield et al., Nextstrain: real-time tracking of pathogen evolution, Bioinformatics (2018)
+Hadfield et al.,[Nextstrain](https://nextstrain.org/) real-time tracking of pathogen evolution, Bioinformatics (2018)
 
+NC_038235(RSV-A) and NC_001781(RSV-B) from Refseq were used as references sequences.
 For Full instructions on how to set up nextstrain visit: https://nextstrain.org/
