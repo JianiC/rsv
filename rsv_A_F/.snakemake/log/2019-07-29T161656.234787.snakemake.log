@@ -1,0 +1,87 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	8
+
+Job 7: 
+        Aligning sequences to config/rsv_A_F_outgroup.gb
+          - filling gaps with N
+        
+
+
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/rsv_A_F_outgroup.gb             --output results/aligned.fasta             --fill-gaps
+        
+Finished job 7.
+1 of 8 steps (12%) done
+
+Job 6: Building tree
+
+
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+Finished job 6.
+2 of 8 steps (25%) done
+
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+Finished job 2.
+3 of 8 steps (38%) done
+
+Job 3: Reconstructing ancestral sequences and mutations
+
+
+        augur ancestral             --tree results/tree.nwk             --alignment results/aligned.fasta             --output results/nt_muts.json             --inference joint
+        
+Finished job 3.
+4 of 8 steps (50%) done
+
+Job 5: Translating amino acid sequences
+
+
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/rsv_A_F_outgroup.gb             --output results/aa_muts.json         
+Finished job 5.
+5 of 8 steps (62%) done
+
+Job 4: Inferring ancestral traits for region country
+
+
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output results/traits.json             --columns region country             --confidence
+        
+Finished job 4.
+6 of 8 steps (75%) done
+
+Job 1: Exporting data files for for auspice
+
+
+        augur export             --tree results/tree.nwk             --metadata data/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output-tree auspice/rsv_A_F_tree.json             --output-meta auspice/rsv_A_F_meta.json
+        
+Finished job 1.
+7 of 8 steps (88%) done
+
+localrule all:
+    input: auspice/rsv_A_F_tree.json, auspice/rsv_A_F_meta.json
+    jobid: 0
+
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: /nextstrain/build/.snakemake/log/2019-07-29T161656.234787.snakemake.log

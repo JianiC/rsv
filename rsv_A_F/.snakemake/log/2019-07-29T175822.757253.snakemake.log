@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	9
+
+Job 8: 
+        Filtering to
+          - 200 sequence(s) per country year month
+          - from 1950 onwards
+        
+
+
+        augur filter             --sequences data/sequences.fasta             --metadata data/metadata.tsv             --output results/filtered.fasta             --group-by country year month             --sequences-per-group 200             --min-date 1950
+        
+    Error in rule filter:
+        jobid: 8
+        output: results/filtered.fasta
+
+RuleException:
+CalledProcessError in line 34 of /nextstrain/build/Snakefile:
+Command ' set -euo pipefail;  
+        augur filter             --sequences data/sequences.fasta             --metadata data/metadata.tsv             --output results/filtered.fasta             --group-by country year month             --sequences-per-group 200             --min-date 1950 ' returned non-zero exit status 1.
+  File "/nextstrain/build/Snakefile", line 34, in __rule_filter
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /nextstrain/build/.snakemake/log/2019-07-29T175822.757253.snakemake.log

@@ -1,13 +1,13 @@
 rule all:
     input:
-        auspice_tree = "auspice/rsv_B_WGS_tree.json",
-        auspice_meta = "auspice/rsv_B_WGS_meta.json"
+        auspice_tree = "auspice/rsv_A_F_tree.json",
+        auspice_meta = "auspice/rsv_A_F_meta.json"
 
 rule files:
     params:
         input_fasta = "data/sequences.fasta",
         input_metadata = "data/metadata.tsv",
-        reference = "config/rsv_B_WGS_outgroup.gb",
+        reference = "config/rsv_A_F_outgroup.gb",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"

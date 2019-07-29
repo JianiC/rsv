@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	9
+
+Job 8: 
+        Filtering to
+          - 200 sequence(s) per country year month
+          - from 1950 onwards
+        
+
+
+        augur filter             --sequences data/sequences.fasta             --metadata data/metadata.tsv             --output results/filtered.fasta             --group-by country year month             --sequences-per-group 200             --min-date 1950
+        
+Finished job 8.
+1 of 9 steps (11%) done
+
+Job 6: 
+        Aligning sequences to config/rsv_A_F_outgroup.gb
+          - filling gaps with N
+        
+
+
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/rsv_A_F_outgroup.gb             --output results/aligned.fasta             --fill-gaps
+        
+Finished job 6.
+2 of 9 steps (22%) done
+
+Job 7: Building tree
+
+
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+Finished job 7.
+3 of 9 steps (33%) done
+
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+    Error in rule refine:
+        jobid: 2
+        output: results/tree.nwk, results/branch_lengths.json
+
+RuleException:
+CalledProcessError in line 98 of /nextstrain/build/Snakefile:
+Command ' set -euo pipefail;  
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4 ' returned non-zero exit status 1.
+  File "/nextstrain/build/Snakefile", line 98, in __rule_refine
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Terminating processes on user request, this might take some time.
+Complete log: /nextstrain/build/.snakemake/log/2019-07-29T180041.541002.snakemake.log

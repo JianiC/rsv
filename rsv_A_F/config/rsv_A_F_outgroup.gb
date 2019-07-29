@@ -1,0 +1,89 @@
+LOCUS       LC377911                1725 bp    cRNA    linear   VRL 12-MAY-2018
+DEFINITION  Human respiratory syncytial virus A TB1_KW-14-0022 F gene for
+            fusion protein, complete cds.
+ACCESSION   LC377911
+VERSION     LC377911.1  GI:1389109164
+KEYWORDS    .
+SOURCE      Human respiratory syncytial virus A
+  ORGANISM  Human respiratory syncytial virus A
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Pneumoviridae; Orthopneumovirus.
+REFERENCE   1
+  AUTHORS   Okamoto,M., Dapat,C.P., Sandagon,A.M.D., Batangan-Nacion,L.P.,
+            Lirio,I.C., Tamaki,R., Saito,M., Saito-Obata,M., Lupisan,S.P. and
+            Oshitani,H.
+  TITLE     Molecular Characterization of Respiratory Syncytial Virus in
+            Children with Repeated Infections with Subgroup B in the
+            Philippines
+  JOURNAL   J. Infect. Dis. (2018) In press
+   PUBMED   29722817
+  REMARK    DOI:10.1093/infdis/jiy256
+            Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1725)
+  AUTHORS   Okamoto,M. and Oshitani,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2018) Contact:Michiko Okamoto Tohoku University
+            Graduate School of Medicine, Virology; 2-1 Seiryo-machi, Aoba-ku,
+            Sendai, Miyagi 980-8575, Japan URL
+            :http://www.virology.med.tohoku.ac.jp/
+FEATURES             Location/Qualifiers
+     source          1..1725
+                     /organism="Human respiratory syncytial virus A"
+                     /mol_type="viral cRNA"
+                     /strain="TB1_KW-14-0022"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:208893"
+                     /segment="F"
+                     /country="Philippines"
+                     /collection_date="2014-08-19"
+     gene            1..1725
+                     /gene="F"
+     CDS             1..1725
+                     /gene="F"
+                     /codon_start=1
+                     /product="fusion protein"
+                     /protein_id="BBD74542.1"
+                     /db_xref="GI:1389109165"
+                     /translation="MELPILKTNAITTILAAVTLCFASSQNITEEFYQSTCSAVSKGY
+                     LSALRTGWYTSVITIELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQLLMQSTPA
+                     ANSRARRELPRFMNYTLNNTKNTNVTLSKKRKRRFLGFLLGVGSAIASGIAVSKVLHL
+                     EGEVNKIKSALLSTNKAVVSLSNGVSVLTSKVLDLKNYIDKQLLPIVNKQSCSISNIE
+                     TVIEFQQKNNRLLEITREFSVNAGVTTPVSTYMLTNSELLSLINDMPITNDQKKLMSS
+                     NVQIVRQQSYSIMSIIKEEVLAYVVQLPLYGVIDTPCWKLHTSPLCTTNTKEGSNICL
+                     TRTDRGWYCDNAGSVSFFPQAETCKVQSNRVFCDTMNSLTLPSEVNLCNIDIFNPKYD
+                     CKIMTSKTDVSSSVITSLGAIVSCYGKTKCTASNKNRGIIKTFSNGCDYVSNKGVDTV
+                     SVGNTLYYVNKQEGKSLYVKGEPIINFYDPLVFPSDEFDASISQVNEKINQSLAFIRK
+                     SDELLHNVNAGKSTTNIMITTIIIVIIVILLALIAVGLLLYCKARSTPVTLSKDQLSG
+                     INNIAFSN"
+ORIGIN      
+        1 atggagttgc caatcctcaa aacaaatgct attaccacaa tccttgctgc agtcacactc
+       61 tgtttcgctt ccagtcaaaa catcactgaa gaattttatc aatcaacatg cagtgcagtt
+      121 agcaaaggct atcttagtgc tctaagaact ggttggtata ctagtgttat aactatagaa
+      181 ttaagtaata tcaaggaaaa taagtgtaat ggtacagacg ctaaggtaaa attaataaaa
+      241 caagaattag ataaatataa aaatgctgta acagaattgc agttgctcat gcaaagcaca
+      301 ccagcagcca acagtcgagc cagaagagaa ctaccaagat ttatgaatta tacactcaac
+      361 aataccaaaa acaccaatgt aacattaagt aagaaaagga aaagaagatt tcttggattt
+      421 ttgttaggtg ttggatctgc aatcgccagt ggcattgccg tatccaaggt cctgcaccta
+      481 gaaggggaag tgaacaaaat caaaagtgct ctactatcca caaacaaggc tgtagtcagc
+      541 ttatctaatg gagtcagtgt cttaaccagc aaggtgttag acctcaaaaa ctatatagat
+      601 aaacagttgt tacctattgt taacaagcaa agctgcagca tatcaaacat tgaaactgtg
+      661 atagagttcc aacaaaagaa caacagacta ctagagatta ccagagaatt tagtgttaat
+      721 gcaggtgtaa ctacacctgt aagcacttat atgttaacta atagtgagtt attatcatta
+      781 atcaatgata tgcctataac aaatgatcag aaaaagttaa tgtccagcaa tgttcaaata
+      841 gttagacagc aaagttactc tatcatgtca ataataaaag aggaagtctt agcatatgta
+      901 gtacaattac cactatatgg tgtaatagat actccttgtt ggaaactaca cacatcccct
+      961 ctatgtacaa ccaacacaaa ggaaggatcc aacatctgct taacaagaac cgacagagga
+     1021 tggtactgtg acaatgcagg atcagtatcc tttttcccac aagctgaaac atgtaaagtt
+     1081 caatcgaatc gggtgttttg tgacacaatg aacagtttaa cattaccaag tgaggtaaat
+     1141 ctctgcaaca ttgacatatt caaccccaaa tatgattgca aaattatgac ttcaaaaaca
+     1201 gatgtaagca gctccgttat cacatctcta ggagccattg tgtcatgcta tggcaaaacc
+     1261 aaatgtacag catcaaataa aaatcgtggg atcataaaga cattctctaa cgggtgtgat
+     1321 tatgtatcaa ataagggggt ggatactgtg tctgtaggta atacattata ttatgtaaat
+     1381 aagcaagaag gcaaaagtct ctatgtaaaa ggtgaaccca taataaattt ctatgatcca
+     1441 ttagtgttcc cctctgatga atttgatgca tcaatatctc aagtcaatga gaaaattaat
+     1501 cagagtttag catttatccg taaatcagat gaattattac ataatgtaaa tgctggtaaa
+     1561 tccaccacaa atatcatgat aactaccata attatagtaa ttatagtaat attgttagca
+     1621 ttaattgcag ttggactgct tctatactgc aaggccagaa gcacaccagt cacattaagt
+     1681 aaggatcaac tgagtggtat aaataatatt gcatttagta actga
+//
+

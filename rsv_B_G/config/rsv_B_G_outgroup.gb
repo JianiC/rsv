@@ -1,0 +1,72 @@
+LOCUS       MF443158                 969 bp    cRNA    linear   VRL 30-SEP-2017
+DEFINITION  Human respiratory syncytial virus B isolate MAD/GM3_15/13
+            attachment glycoprotein (G) gene, complete cds.
+ACCESSION   MF443158
+VERSION     MF443158.1
+KEYWORDS    .
+SOURCE      Human respiratory syncytial virus B
+  ORGANISM  Human respiratory syncytial virus B
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Pneumoviridae; Orthopneumovirus.
+REFERENCE   1  (bases 1 to 969)
+  AUTHORS   Trento,A., Rodriguez-Fernandez,R., Gonzalez,M.I., Gonzalez,F.,
+            Mas,V., Vazquez,M., Palomo,C. and Melero,J.A.
+  TITLE     The complex and discrepant antibody responses elicited against the
+            respiratory syncytial virus glycoproteins in hospitalized children
+            younger than two years
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 969)
+  AUTHORS   Trento,A., Rodriguez-Fernandez,R., Gonzalez,M.I., Gonzalez,F.,
+            Mas,V., Vazquez,M., Palomo,C. and Melero,J.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2017) Unidad de Biologia Viral, Instituto de
+            Salud Carlos III, Carretera Majadahonda-Pozuelo Km2, Majadahonda,
+            Madrid 28220, Spain
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..969
+                     /organism="Human respiratory syncytial virus B"
+                     /mol_type="viral cRNA"
+                     /isolate="MAD/GM3_15/13"
+                     /isolation_source="nasopharygeal aspirate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:208895"
+                     /country="Spain"
+                     /collection_date="24-Jan-2014"
+                     /note="group: B; genotype: BA IV"
+     gene            16..948
+                     /gene="G"
+     CDS             16..948
+                     /gene="G"
+                     /note="G glycoprotein"
+                     /codon_start=1
+                     /product="attachment glycoprotein"
+                     /protein_id="ASU10076.1"
+                     /translation="MSKNKNQRTARTLEKTWDTLNHLIVISSCLYKLNLKSIAQIALS
+                     VLAMIISTSLIIAAIIFIISANHKVTLTTVTVQTIKNHTEKNITTYLTQVSPEGVSPS
+                     NQPTTTPPIHTNSATISPNTKSETHHTTEQTKGRTSTPTQNNKPSTKPRPKNPPKKDD
+                     YHFEVFNFVPCSICGNNQLCKSICKTIPSNKPKKKPTIKPTNKPPTKTTNKRDPKTRA
+                     KTPKKETTINPTIKPTLKTTERDTSIPQSTVLDTTTSEHTERDTSTSQSIALDTTTSK
+                     HTIQQQSLYSTTLENTPNSTQTPTASELSTSNST"
+ORIGIN      
+        1 ggggcaaatg caaccatgtc caaaaacaag aatcaacgca ctgccaggac tctagaaaag
+       61 acctgggata ctcttaatca tctaattgta atatcctctt gtttatacaa attaaattta
+      121 aaatctatag cacaaatagc actatcagtt ttggcaatga taatctcaac ctctctcata
+      181 attgcagcca taatattcat catctctgcc aatcacaaag ttacactaac aactgtcaca
+      241 gttcaaacaa taaaaaacca cactgagaaa aacataacca cttaccttac tcaagtctca
+      301 ccagaagggg ttagcccatc caaccaaccc acaaccacac caccaatcca cacaaactca
+      361 gccacaatat cacctaatac aaaatcagaa acacaccata caacagaaca aaccaaaggc
+      421 agaacctcta ctccaacaca gaacaacaag ccaagcacaa aaccacgtcc aaaaaatcca
+      481 ccaaaaaaag atgattacca ttttgaagtg ttcaacttcg ttccctgtag tatatgtggc
+      541 aacaatcaac tctgcaaatc catttgcaaa acaataccaa gcaataaacc aaagaaaaaa
+      601 ccaactataa aacccacaaa caaaccaccc accaaaacca caaacaaaag agaccctaaa
+      661 acacgagcca aaacaccgaa aaaagaaacc accattaacc caacaataaa accaaccctc
+      721 aagaccacag aaagagacac cagcatccca caatccactg tgctcgacac aaccacatca
+      781 gaacacacag aaagagacac cagcacctca caatccattg cgcttgacac aaccacatca
+      841 aaacacacaa tccaacagca atccctctac tcaaccaccc tcgaaaacac accaaactcc
+      901 acacaaacac ccacagcatc cgagctctcc acatcaaatt ccacctaaaa actccagtca
+      961 tatgcttag
+//
+

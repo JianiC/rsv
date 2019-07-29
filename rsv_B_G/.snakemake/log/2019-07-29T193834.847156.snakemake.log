@@ -1,0 +1,103 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	9
+
+Job 8: 
+        Filtering to
+          - 200 sequence(s) per country year month
+          - from 1950 onwards
+        
+
+
+        augur filter             --sequences data/sequences.fasta             --metadata data/metadata.tsv             --output results/filtered.fasta             --group-by country year month             --sequences-per-group 200             --min-date 1950
+        
+Finished job 8.
+1 of 9 steps (11%) done
+
+Job 6: 
+        Aligning sequences to config/rsv_B_G_outgroup.gb
+          - filling gaps with N
+        
+
+
+        augur align             --sequences results/filtered.fasta             --reference-sequence config/rsv_B_G_outgroup.gb             --output results/aligned.fasta             --fill-gaps
+        
+Finished job 6.
+2 of 9 steps (22%) done
+
+Job 7: Building tree
+
+
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+Finished job 7.
+3 of 9 steps (33%) done
+
+Job 4: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+Finished job 4.
+4 of 9 steps (44%) done
+
+Job 3: Reconstructing ancestral sequences and mutations
+
+
+        augur ancestral             --tree results/tree.nwk             --alignment results/aligned.fasta             --output results/nt_muts.json             --inference joint
+        
+Finished job 3.
+5 of 9 steps (56%) done
+
+Job 5: Translating amino acid sequences
+
+
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/rsv_B_G_outgroup.gb             --output results/aa_muts.json         
+Finished job 5.
+6 of 9 steps (67%) done
+
+Job 2: Inferring ancestral traits for region country
+
+
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output results/traits.json             --columns region country             --confidence
+        
+Finished job 2.
+7 of 9 steps (78%) done
+
+Job 1: Exporting data files for for auspice
+
+
+        augur export             --tree results/tree.nwk             --metadata data/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output-tree auspice/rsv_B_G_tree.json             --output-meta auspice/rsv_B_G_meta.json
+        
+    Error in rule export:
+        jobid: 1
+        output: auspice/rsv_B_G_tree.json, auspice/rsv_B_G_meta.json
+
+RuleException:
+CalledProcessError in line 182 of /nextstrain/build/Snakefile:
+Command ' set -euo pipefail;  
+        augur export             --tree results/tree.nwk             --metadata data/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output-tree auspice/rsv_B_G_tree.json             --output-meta auspice/rsv_B_G_meta.json ' returned non-zero exit status 1.
+  File "/nextstrain/build/Snakefile", line 182, in __rule_export
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /nextstrain/build/.snakemake/log/2019-07-29T193834.847156.snakemake.log

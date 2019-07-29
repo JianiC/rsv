@@ -1,0 +1,15 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	clean
+	1
+
+Job 0: Removing directories: results  auspice
+
+rm -rfv results  auspice
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /nextstrain/build/.snakemake/log/2019-07-29T175801.529534.snakemake.log

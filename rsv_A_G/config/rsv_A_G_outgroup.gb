@@ -1,0 +1,69 @@
+LOCUS       KP164507                 909 bp    cRNA    linear   VRL 30-NOV-2015
+DEFINITION  Human respiratory syncytial virus A strain MAD10983/13 attachment G
+            protein (G) gene, complete cds.
+ACCESSION   KP164507
+VERSION     KP164507.1
+KEYWORDS    .
+SOURCE      Human respiratory syncytial virus A
+  ORGANISM  Human respiratory syncytial virus A
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Pneumoviridae; Orthopneumovirus.
+REFERENCE   1  (bases 1 to 909)
+  AUTHORS   Casas,I., Calderon,A., Pozo,F., Calvo,C., Garcia-Garcia,M.,
+            Gonzalez,M. and Molinero,M.
+  TITLE     Novel Respiratory Syncytial Virus AON1 Genotype was Predominant in
+            Spain during epidemic season 2012-2013: analysis of the complete
+            attachment G protein gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 909)
+  AUTHORS   Casas,I., Calderon,A., Pozo,F., Calvo,C., Garcia-Garcia,M.,
+            Gonzalez,M. and Molinero,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-NOV-2014) Virology Department, National Center of
+            Microbiology, Instituto de Salud Carlos III, Carretera Majadahonda
+            Pozuelo km 2, Majadahonda, Madrid 28220, Spain
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..909
+                     /organism="Human respiratory syncytial virus A"
+                     /mol_type="viral cRNA"
+                     /strain="MAD10983/13"
+                     /isolation_source="nasopharyngeal aspirate"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:208893"
+                     /country="Spain"
+                     /collection_date="02-Nov-2013"
+     gene            1..909
+                     /gene="G"
+     CDS             16..909
+                     /gene="G"
+                     /codon_start=1
+                     /product="attachment G protein"
+                     /protein_id="ALB35402.1"
+                     /translation="MSKTKDQRTAKTLERTWDTLNHLLFISSCLYKLNLRSIAQITLS
+                     ILAMIISTSLIIAAIIFIASANHKVTLTTAITQDATNQIKNTTPTYLTQNPQLGISFS
+                     NLSGTTSQSTTILASTTPSAESTSQSTIVKIKNTTTTQILPSKPTTKQRQNKPQNKPN
+                     NDFHFEVFNFVPCSICSNNPTCWAICKRIPNKKPGKKTTTKPTKKPTLKTTKKDPKPQ
+                     TTKPKEVLTTKPTEKPTIDTTKTNIRTTLLTSNTIGNPEHTSQEETLHSTTSEGYLSP
+                     SQFYTTSEYLSQSPSSSNTKK"
+ORIGIN      
+        1 ggggcaaatg caaacatgtc caaaaccaag gaccaacgca ccgccaagac actagaaagg
+       61 acctgggaca ctctcaatca tctattattc atatcatcgt gcttatacaa gttaaatctt
+      121 agatctatag cacaaatcac attatctatt ttggcaatga taatctcaac ctcacttata
+      181 attgcagcca tcatattcat agcttcggca aaccacaaag tcacactaac aactgcaatc
+      241 acacaagatg caacgaacca gatcaagaac acaaccccaa catacctcac ccagaatcct
+      301 cagcttggaa tcagcttctc caatctgtcc ggaactacat cacaatccac caccatacta
+      361 gcttcaacaa caccaagtgc tgagtcaacc tcacaatcca caatagtcaa gatcaaaaac
+      421 acaacaacaa cccaaatatt acctagcaaa cccaccacaa aacaacgcca aaataaacca
+      481 caaaacaaac ccaacaatga ttttcacttt gaagtgttca attttgtacc ctgcagcata
+      541 tgcagcaaca atccaacctg ctgggccatc tgcaagagaa taccaaacaa aaaacctgga
+      601 aagaaaacca ccaccaagcc cacaaaaaaa ccaaccctca agacaaccaa aaaagatccc
+      661 aaacctcaaa ccacaaaacc aaaggaagta ctcaccacca agcctacaga aaagccaacc
+      721 atcgacacca ctaaaacaaa catcagaact acactgctca cctccaacac cataggaaat
+      781 ccagaacaca caagtcaaga ggaaaccctc cactcaacca cctccgaagg ctatctaagc
+      841 ccatcacaat tctatacaac atccgagtac ctatcacaat ctccatcttc atccaataca
+      901 aaaaaatga
+//
+
