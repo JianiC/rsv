@@ -1,0 +1,36 @@
+{
+  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtype B evolution using whole-genome sequences",
+  "color_options": {
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "Genotype": {
+      "key":"Genotype",
+      "legendTitle":"Genotype",
+      "menuItem":"Genotype",
+      "type":"discrete"
+    },
+    "country": {
+    },
+    "region": {
+    }
+  },
+  "geo":
+    "country",
+    "region"
+  ],
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "maintainer": [
+    "Jiani Chen",
+  ],
+  "filters": [
+    "country",
+    "region",
+    "Genotype"
+  ]
+}

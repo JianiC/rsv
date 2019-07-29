@@ -316,21 +316,20 @@
         "longitude": 105.292133
       },
       "Western_Pacific": {
-        "latitude": 28.339659,
-        "longitude": 120.104638
+        "latitude": 25.348984,
+        "longitude": 129.481437
       }
     }
   },
   "maintainer": [
-    "Trevor Bedford",
-    "http://bedford.io/team/trevor-bedford/"
+    "Jiani Chen"
   ],
   "panels": [
     "tree",
     "map",
     "entropy"
   ],
-  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtypes A evolution using whole-genome sequences",
-  "updated": "20 Jun 2019",
+  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtype A evolution using whole-genome sequences",
+  "updated": "29 Jul 2019",
   "virus_count": 997
 }

@@ -1,12 +1,12 @@
 {
   "annotations": {
-    "DZD21_gp02": {
-      "end": 7385,
-      "start": 5660,
+    "F": {
+      "end": 1725,
+      "start": 0,
       "strand": 1
     },
     "nuc": {
-      "end": 1902,
+      "end": 1725,
       "start": 0,
       "strand": 1
     }
@@ -62,6 +62,10 @@
         [
           "India",
           "#4784C7"
+        ],
+        [
+          "Iran",
+          "#5098B9"
         ],
         [
           "Italy",
@@ -232,6 +236,10 @@
         "latitude": 25.438228,
         "longitude": 79.361169
       },
+      "Iran": {
+        "latitude": 30.325311,
+        "longitude": 55.713818
+      },
       "Italy": {
         "latitude": 42.6384261,
         "longitude": 12.674297
@@ -331,21 +339,20 @@
         "longitude": 105.292133
       },
       "Western_Pacific": {
-        "latitude": 28.339659,
-        "longitude": 120.104638
+        "latitude": 25.348984,
+        "longitude": 129.481437
       }
     }
   },
   "maintainer": [
-    "Trevor Bedford",
-    "http://bedford.io/team/trevor-bedford/"
+    "Jiani Chen"
   ],
   "panels": [
     "tree",
     "map",
     "entropy"
   ],
-  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtypes A evolution using F-gene sequences",
-  "updated": "19 Jun 2019",
-  "virus_count": 1910
+  "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtype A evolution using F-gene sequences",
+  "updated": "29 Jul 2019",
+  "virus_count": 1845
 }

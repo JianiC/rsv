@@ -1,0 +1,10 @@
+auspice/rsv_B_WGS_tree.json
+auspice/rsv_B_WGS_meta.json
+results/traits.json
+results/tree.nwk
+results/branch_lengths.json
+results/aa_muts.json
+results/nt_muts.json
+results/aligned.fasta
+results/tree_raw.nwk
+results/filtered.fasta

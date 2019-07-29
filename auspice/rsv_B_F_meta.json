@@ -1,12 +1,12 @@
 {
   "annotations": {
-    "HRSVgp08": {
-      "end": 7390,
-      "start": 5665,
+    "F": {
+      "end": 1725,
+      "start": 0,
       "strand": 1
     },
     "nuc": {
-      "end": 1899,
+      "end": 1725,
       "start": 0,
       "strand": 1
     }
@@ -249,14 +249,13 @@
         "longitude": 105.292133
       },
       "Western_Pacific": {
-        "latitude": 28.339659,
-        "longitude": 120.104638
+        "latitude": 25.348984,
+        "longitude": 129.481437
       }
     }
   },
   "maintainer": [
-    "Trevor Bedford",
-    "http://bedford.io/team/trevor-bedford/"
+    "Jiani Chen"
   ],
   "panels": [
     "tree",
@@ -264,6 +263,6 @@
     "entropy"
   ],
   "title": "Real-time tracking of Human Respiratory Syncytial Virus Subtypes B evolution using F-gene sequences",
-  "updated": "19 Jun 2019",
-  "virus_count": 771
+  "updated": "29 Jul 2019",
+  "virus_count": 776
 }
