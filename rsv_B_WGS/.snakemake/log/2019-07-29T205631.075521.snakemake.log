@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 44 of /nextstrain/build/Snakefile:
-Missing input files for rule align:
-config/rsv_B_WGS_outgroup.gb

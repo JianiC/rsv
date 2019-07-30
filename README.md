@@ -11,14 +11,15 @@ Metadata (including isolated country and date) were extracted from genbank using
 ## Nextstrain build
 Hadfield et al.,[Nextstrain](https://nextstrain.org/) real-time tracking of pathogen evolution, Bioinformatics (2018)
 
-Reference sequences were list as follow:
-Dataset	Source	Accession
-rsv_A_F	Genbank	 LC377911
-rsv_A_G	Genbank	KP164507
-rsv_A_WGS	Refseq	NC038235
-rsv_B_F	Genbank	KY296706
-rsv_B_G	Genbank	KC283036
-rsv_B_WGS	Refseq	NC001781
+Referece sequences used for Nextstrain build for RSV were listed as follow:
 
-NC_038235(RSV-A) and NC_001781(RSV-B) from Refseq were used as references sequences.
+| Dataset | Source | Accession |
+| ------- | ------ | --------- |
+rsv_A_F	|Genbank|LC377911
+rsv_A_G	|Genbank	|KP164507
+rsv_A_WGS |Refseq|NC038235
+rsv_B_F	|Genbank|	KY296706
+rsv_B_G	|Genbank|	KC283036
+rsv_B_WGS	|Refseq	|NC001781
+
 For Full instructions on how to set up nextstrain visit: https://nextstrain.org/
